@@ -10,7 +10,7 @@ export default () => {
         <ProjectCard
           title="SVNIT 101"
           link="https://github.com/godcrampy/svnit-101"
-          stack="Flutter, UI Design"
+          stack="Flutter, UI Design, Firebase"
           content="Android App for College Freshers." />
         <ProjectCard
           title="CompSci Heaven"
@@ -35,7 +35,7 @@ export default () => {
         <ProjectCard
           title="Tech Quiz App"
           link="https://github.com/godcrampy/tech-quiz-app"
-          stack="Vue"
+          stack="Vue, Firebase"
           content="A fun computer quiz app made with Vue." />
       </div>
     </Scaffold>
