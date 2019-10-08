@@ -8,7 +8,7 @@ class Hero extends React.Component {
     return (
       <div id="hero">
         <h1 className="headline-3">
-          <img src={waveImage} />
+          <img alt="wave" src={waveImage} />
           <strong>Hello!</strong>
         </h1>
         <h3 className="font-alt font-light">I design and build products for Web and Mobile</h3>
