@@ -4,5 +4,4 @@
 
 - Home
 - Projects
-- Blog
 - About

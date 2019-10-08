@@ -18,8 +18,7 @@ class Header extends React.Component {
         <HeaderTitle title="Sahil Bondre">
           <HeaderButton toggle={this.handleButtonToggle} />
         </HeaderTitle>
-        <HeaderItem title="Contact" link="#" />
-        <HeaderItem title="Blog" link="#" />
+        <HeaderItem title="About" link="/about" />
         <HeaderItem title="Projects" link="/projects" />
       </div>
     )

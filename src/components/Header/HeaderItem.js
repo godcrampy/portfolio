@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 export default (props) => {
   return (
     <div className="nav-item hide right item">
-      <a href={props.link}>{props.title}</a>
+      <Link to={props.link}>{props.title}</Link>
     </div>
   )
 }
