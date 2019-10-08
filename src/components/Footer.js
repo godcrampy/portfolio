@@ -26,6 +26,10 @@ class Footer extends React.Component {
         <a href="https://www.linkedin.com/in/sahil-bondre-571a8416a/">
           <img alt="icon" src={linkedin}></img>
         </a>
+        <br />
+        <p>
+          Icons by <a href="https://icons8.com">icons8</a>
+        </p>
       </footer>
     )
   }

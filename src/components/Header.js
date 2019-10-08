@@ -15,7 +15,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header unselectable header-animated" id="header">
-        <HeaderTitle title="🚀 Sahil Bondre">
+        <HeaderTitle title="Sahil Bondre">
           <HeaderButton toggle={this.handleButtonToggle} />
         </HeaderTitle>
         <HeaderItem title="Contact" link="#" />
