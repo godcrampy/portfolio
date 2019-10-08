@@ -20,7 +20,7 @@ class Header extends React.Component {
         </HeaderTitle>
         <HeaderItem title="Contact" link="#" />
         <HeaderItem title="Blog" link="#" />
-        <HeaderItem title="Projects" link="#" />
+        <HeaderItem title="Projects" link="/projects" />
       </div>
     )
   }

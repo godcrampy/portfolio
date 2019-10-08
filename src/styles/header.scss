@@ -1,6 +1,6 @@
 #header {
   overflow: hidden;
-  padding: 0.5em 5em;
+  padding: 0.5em 15%;
 
   @media screen and (max-width: 768px) {
     padding: 0.5em 0em;
@@ -16,6 +16,7 @@
   }
 
   .brand {
+    color: #121212;
     margin-left: 1em;
     margin-right: 1em;
   }
@@ -26,5 +27,9 @@
 
   .left {
     float: left;
+  }
+
+  h4{
+    color: #343434;
   }
 }
