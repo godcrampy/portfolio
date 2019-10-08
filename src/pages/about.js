@@ -17,7 +17,7 @@ export default () => {
             I am a computer engineering undergraduate with experience in Fulstack Web and Mobile. I am passionate about writing clean, efficient and professional code. I have good knowledge of Data Structures, Algorithms and UI Design.
           </p>
           <button onClick={() => {
-            window.location.href = "https://google.com"
+            window.location.href = "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf"
           }} className="btn-link ">Here's My Resume</button>
         </div>
       </div>
