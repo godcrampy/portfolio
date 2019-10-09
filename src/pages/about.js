@@ -27,9 +27,9 @@ export default () => {
     <Scaffold>
       <div id="about">
         <div className="row">
-          <div className="col-4 flex" id="flex">
+          <div className="col-4">
             <img alt="profile" src={profilePic} />
-            <div>
+            <div className="links">
               <p className="subtitle">Get in touch with me!</p>
               <a href="mailto:sahilbondre@gmail.com">Email</a>
               <a href="https://www.linkedin.com/in/sahil-bondre-571a8416a/">Linkedin</a>

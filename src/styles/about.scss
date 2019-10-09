@@ -1,14 +1,16 @@
 #about {
   img {
-    border-radius: 4%;
-    box-shadow: 0 px 0px 10px 1px #787878;
+    border-radius: 2%;
+    box-shadow: 0px 0px 8px 2px #aaaaaa;
 
     @media screen and (max-width : 768px) {
       width: 65%;
+      margin-left: 17.5%;
     }
   }
 
   .subtitle {
+    font-weight: bold;
     color: #787878;
     margin: 0px;
   }
@@ -18,5 +20,10 @@
     margin: 0 10px 0 0;
     padding: 0;
     opacity: 0.8;
+  }
+
+  .links {
+    margin-top: 15px;
+    text-align: center;
   }
 }
