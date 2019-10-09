@@ -2,23 +2,55 @@ import React from 'react'
 import Scaffold from '../components/Scaffold'
 
 import profilePic from '../assets/profile_pic.jpg'
+import '../styles/about.scss'
+
 export default () => {
+  const getDay = () => {
+    switch (new Date().getDay()) {
+      case 1:
+        return "Marvelous Monday"
+      case 2:
+        return "Terrific Tuesday"
+      case 3:
+        return "Wonderful Wednesday"
+      case 4:
+        return "Thoughtful Thursday"
+      case 5:
+        return "Fun Friday"
+      case 6:
+        return "Spectacular Saturday"
+      case 7:
+        return "Satisfying Sunday"
+    }
+  }
   return (
     <Scaffold>
-      <div className="row">
-        <div className="col-4">
-          <img alt="profile" src={profilePic} />
-          <h3>Sahil Bondre</h3>
-          <p>sahilbondre@gmail.com</p>
-        </div>
-        <div className="col-1"></div>
-        <div className="col-7">
-          <p>
-            I am a computer engineering undergraduate with experience in Fulstack Web and Mobile. I am passionate about writing clean, efficient and professional code. I have good knowledge of Data Structures, Algorithms and UI Design.
+      <div id="about">
+        <div className="row">
+          <div className="col-4 flex" id="flex">
+            <img alt="profile" src={profilePic} />
+            <div>
+              <p className="subtitle">Get in touch with me!</p>
+              <a href="mailto:sahilbondre@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/sahil-bondre-571a8416a/">Linkedin</a>
+              <a href="https://github.com/godcrampy">Github</a>
+            </div>
+            <br />
+          </div>
+          <div className="col-1"></div>
+          <div className="col-7">
+            <h3>Sahil Bondre</h3>
+            <p>
+              I am a computer engineering undergraduate currently studying in NIT Surat, India. I am experienced in Fullstack Web and Mobile. I am passionate about writing clean and efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design.
           </p>
-          <button onClick={() => {
-            window.location.href = "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf"
-          }} className="btn-link ">Here's My Resume</button>
+            <p>
+              By the way, I write articles related to programming too on<a href="https://dev.to/godcrampy">Dev.</a>
+            </p>
+            <button onClick={() => {
+              window.location.href = "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf"
+            }} className="btn-link ">Here's My Resume</button>
+            <p>Have a {getDay()}!</p>
+          </div>
         </div>
       </div>
     </Scaffold>
