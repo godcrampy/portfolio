@@ -19,7 +19,7 @@ export default () => {
         return "Fun Friday"
       case 6:
         return "Spectacular Saturday"
-      case 7:
+      default:
         return "Satisfying Sunday"
     }
   }
@@ -44,7 +44,7 @@ export default () => {
               I am a computer engineering undergraduate currently studying in NIT Surat, India. I am experienced in Fullstack Web and Mobile. I am passionate about writing clean and efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design.
           </p>
             <p>
-              By the way, I write articles related to programming too on<a href="https://dev.to/godcrampy">Dev.</a>
+              By the way, I write articles related to programming too! Find me on <a href="https://dev.to/godcrampy">Dev.</a>
             </p>
             <button onClick={() => {
               window.location.href = "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf"
