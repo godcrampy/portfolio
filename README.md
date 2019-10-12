@@ -8,7 +8,7 @@ Portfolio covers all the projects I have worked on and an insight about me .
 The entire project was implemented mainly using gatsby and jamstack . Sass and javascript were majorily used for 
 the designing purpose . The code avoided the use of any html pages as all the html tags were encoded within the javascript itself .
 
-React is a JavaScript library for building user interfaces. One of the most beautiful libraries with which you can encode the html tags itself and run the entire program . 
+React is a JavaScript library for building user interfaces with which you can encode the html tags itself and run the entire program . 
 
 Gatsby is a free and open source framework based on React and it was used to build faster website . JAMstack stands for JavaScript, APIs, and Markup and is preferred to create a flexible and an easier web development architecture based on client-side javascript , resuable APIs and prebuilt Markup .
 
