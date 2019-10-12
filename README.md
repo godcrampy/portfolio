@@ -14,8 +14,7 @@ Gatsby is a free and open source framework based on React and it was used to bui
 
 
 ## Showcase 
-![Front page](./website-showcase/front.jpg)
-![Webpage](./website-showcase/project.jpg)
+![Portfolio Showcase](website-showcase/portfolio.gif)
 
 ## Built With
 
@@ -26,10 +25,10 @@ Gatsby is a free and open source framework based on React and it was used to bui
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
+1. Fork it (<https://github.com/godcrampy/portfolio/fork>)
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
 5. Create a new Pull Request
 
 ## Authors
