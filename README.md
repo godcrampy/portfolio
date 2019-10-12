@@ -13,9 +13,6 @@ React is a JavaScript library for building user interfaces. One of the most beau
 Gatsby is a free and open source framework based on React and it was used to build faster website . JAMstack stands for JavaScript, APIs, and Markup and is preferred to create a flexible and an easier web development architecture based on client-side javascript , resuable APIs and prebuilt Markup .
 
 
-## Showcase 
-![Portfolio Showcase](website-showcase/portfolio.gif)
-
 ## Built With
 
 * [React](https://reactjs.org/)
@@ -30,6 +27,9 @@ Gatsby is a free and open source framework based on React and it was used to bui
 3. Commit your changes
 4. Push to the branch
 5. Create a new Pull Request
+
+## Showcase 
+![Portfolio Showcase](website-showcase/portfolio.gif)
 
 ## Authors
 
