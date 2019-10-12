@@ -29,7 +29,8 @@ Gatsby is a free and open source framework based on React and it was used to bui
 5. Create a new Pull Request
 
 ## Showcase 
-![Portfolio Showcase](website-showcase/portfolio.gif)
+![Portfolio Showcase](website-showcase/front.jpg)
+![Portfolio Showcase](website-showcase/page.jpg)
 
 ## Authors
 
