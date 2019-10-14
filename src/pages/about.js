@@ -28,7 +28,7 @@ export default () => {
       <div id="about">
         <div className="row">
           <div className="col-4">
-            <img alt="profile" src={profilePic} />
+            <img id="profile-pic" alt="profile" src={profilePic} />
             <div className="links">
               <p className="subtitle">Get in touch with me!</p>
               <a href="mailto:sahilbondre@gmail.com">Email</a>
@@ -44,7 +44,9 @@ export default () => {
               I am a computer engineering undergraduate currently studying in NIT Surat, India. I am experienced in Fullstack Web and Mobile. I am passionate about writing clean and efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design.
           </p>
             <p>
-              By the way, I write articles related to programming too! Find me on <a href="https://dev.to/godcrampy">Dev.</a>
+              By the way, I write articles related to programming too! Find me on:<br /> <a href="https://dev.to/godcrampy">
+                <img id="dev-logo" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Sahil Bondre's DEV Profile" height="30" width="30" />
+              </a>
             </p>
             <button onClick={() => {
               window.location.href = "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf"
