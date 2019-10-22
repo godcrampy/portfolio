@@ -1,36 +1,53 @@
 # Portfolio
-> That's Javascript and I am going to run that.
 
-## Insight to Project
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-Portfolio covers all the projects I have worked on and an insight about me .
+Personal portfolio made with Gatsby and JAMstack
 
-The entire project was implemented mainly using gatsby and jamstack . Sass and javascript were majorily used for 
-the designing purpose . The code avoided the use of any html pages as all the html tags were encoded within the javascript itself .
+## Getting Started
 
-React is a JavaScript library for building user interfaces with which you can encode the html tags itself and run the entire program . 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Gatsby is a free and open source framework based on React and it was used to build faster website . JAMstack stands for JavaScript, APIs, and Markup and is preferred to create a flexible and an easier web development architecture based on client-side javascript , resuable APIs and prebuilt Markup .
+### Prerequisites
 
+- [Node](https://nodejs.org/)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Surge](http://surge.sh) (For Deployment)
+
+### Installing
+
+- `$ git clone https://github.com/godcrampy/portfolio.git`
+- `$ npm install`
+- `$ gatsby develop`
+
+## Deployment
+
+- `$ gatsby build`
+- `$ surge public/`
 
 ## Built With
 
-* [React](https://reactjs.org/)
-* [Gatsby](https://www.gatsbyjs.org/)
-* [JAMstack](https://jamstack.org/)
-* [Sass](https://sass-lang.com/)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Surge](http://surge.sh)
+- [React](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
 
 ## Contributing
 
-1. Fork it (<https://github.com/godcrampy/portfolio/fork>)
-2. Create your feature branch
+1. Fork this repo
+2. Create a new branch
 3. Commit your changes
 4. Push to the branch
-5. Create a new Pull Request
+5. Send a PR
 
-## Showcase 
-![Portfolio Showcase](website-showcase/front.jpg)
+## Showcase
+
+![Portfolio Showcase](docs/front.jpg)
 
 ## Authors
 
-* **Sahil Bondre** - *Initial work* - [godcrampy](https://github.com/godcrampy)
+- **Sahil Bondre** - [godcrampy](https://github.com/godcrampy)
+
+## Contributers
+
+- **Aemie Jariwala** - [AemieJ](https://github.com/AemieJ)
