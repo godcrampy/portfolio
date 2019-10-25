@@ -7,6 +7,11 @@ export default () => {
   return (
     <Scaffold>
       <div id="projects">
+      <ProjectCard
+          title="Listly"
+          link="http://listly.surge.sh"
+          stack="React, Redux, Firebase, Sass, Google Auth"
+          content="All your lists in one place!" />
         <ProjectCard
           title="SVNIT 101"
           link="https://github.com/godcrampy/svnit-101"
