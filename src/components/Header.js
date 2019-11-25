@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
 
-import HeaderTitle from './Header/HeaderTitle'
-import HeaderItem from './Header/HeaderItem'
-import HeaderButton from './Header/HeaderButton'
-import '../styles/header.scss'
+import HeaderTitle from "./Header/HeaderTitle";
+import HeaderItem from "./Header/HeaderItem";
+import HeaderButton from "./Header/HeaderButton";
+import "../styles/header.scss";
 
 class Header extends React.Component {
   handleButtonToggle = () => {
     document.querySelector(".nav-btn").classList.toggle("active");
     document.querySelectorAll(".hide").forEach(item => {
-      item.toggleAttribute("hidden")
+      item.toggleAttribute("hidden");
     });
-  }
+  };
   render() {
     return (
       <div className="header unselectable header-animated" id="header">
@@ -21,7 +21,7 @@ class Header extends React.Component {
         <HeaderItem title="About" link="/about" />
         <HeaderItem title="Projects" link="/projects" />
       </div>
-    )
+    );
   }
 }
 

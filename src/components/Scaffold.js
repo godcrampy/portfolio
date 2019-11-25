@@ -1,9 +1,9 @@
-import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import { Helmet } from 'react-helmet'
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
-import '../styles/scaffold.scss'
+import "../styles/scaffold.scss";
 
 class Scaffold extends React.Component {
   render() {
@@ -14,12 +14,10 @@ class Scaffold extends React.Component {
           <meta name="description" content="Personal Portfolio" />
         </Helmet>
         <Header />
-        <div id="content">
-          {this.props.children}
-        </div>
+        <div id="content">{this.props.children}</div>
         <Footer />
       </div>
-    )
+    );
   }
 }
 

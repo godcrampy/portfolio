@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import '../styles/hero.scss'
-import waveImage from '../assets/wave.png'
+import "../styles/hero.scss";
+import waveImage from "../assets/wave.png";
 
 class Hero extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Hero extends React.Component {
         </h1>
         <h3 className="font-alt font-light">I design and build products for Web and Mobile</h3>
       </div>
-    )
+    );
   }
 }
 

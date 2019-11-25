@@ -1,7 +1,7 @@
-import React from 'react'
-import Scaffold from '../components/Scaffold'
-import Hero from '../components/Hero'
-import Stack from '../components/Stack'
+import React from "react";
+import Scaffold from "../components/Scaffold";
+import Hero from "../components/Hero";
+import Stack from "../components/Stack";
 
 export default () => {
   return (
@@ -9,5 +9,5 @@ export default () => {
       <Hero />
       <Stack />
     </Scaffold>
-  )
-}
+  );
+};

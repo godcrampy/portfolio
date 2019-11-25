@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import rocketImage from '../../assets/rocket.png'
+import rocketImage from "../../assets/rocket.png";
 
-export default (props) => {
+export default props => {
   return (
     <div className="header-brand left">
       <Link to="/" className="nav-item no-hover">
@@ -12,5 +12,5 @@ export default (props) => {
       </Link>
       {props.children}
     </div>
-  )
-}
+  );
+};

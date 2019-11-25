@@ -1,28 +1,28 @@
-import React from 'react'
-import Scaffold from '../components/Scaffold'
+import React from "react";
+import Scaffold from "../components/Scaffold";
 
-import profilePic from '../assets/profile_pic.jpg'
-import '../styles/about.scss'
+import profilePic from "../assets/profile_pic.jpg";
+import "../styles/about.scss";
 
 export default () => {
   const getDay = () => {
     switch (new Date().getDay()) {
       case 1:
-        return "Marvelous Monday"
+        return "Marvelous Monday";
       case 2:
-        return "Terrific Tuesday"
+        return "Terrific Tuesday";
       case 3:
-        return "Wonderful Wednesday"
+        return "Wonderful Wednesday";
       case 4:
-        return "Thoughtful Thursday"
+        return "Thoughtful Thursday";
       case 5:
-        return "Fun Friday"
+        return "Fun Friday";
       case 6:
-        return "Spectacular Saturday"
+        return "Spectacular Saturday";
       default:
-        return "Satisfying Sunday"
+        return "Satisfying Sunday";
     }
-  }
+  };
   return (
     <Scaffold>
       <div id="about">
@@ -41,20 +41,37 @@ export default () => {
           <div className="col-7">
             <h3>Sahil Bondre</h3>
             <p>
-              I am a computer engineering undergraduate currently studying in NIT Surat, India. I am experienced in Fullstack Web and Mobile. I am passionate about writing clean and efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design. Contributor for <a href="http://webpack.js.org/">webpack</a>
-          </p>
+              I am a computer engineering undergraduate currently studying in NIT Surat, India. I am
+              experienced in Fullstack Web and Mobile. I am passionate about writing clean and
+              efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design.
+              Contributor for <a href="http://webpack.js.org/">webpack</a>
+            </p>
             <p>
-              By the way, I write articles related to programming too! Find me on:<br /> <a href="https://dev.to/godcrampy">
-                <img id="dev-logo" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Sahil Bondre's DEV Profile" height="30" width="30" />
+              By the way, I write articles related to programming too! Find me on:
+              <br />{" "}
+              <a href="https://dev.to/godcrampy">
+                <img
+                  id="dev-logo"
+                  src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                  alt="Sahil Bondre's DEV Profile"
+                  height="30"
+                  width="30"
+                />
               </a>
             </p>
-            <button onClick={() => {
-              window.location.href = "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf"
-            }} className="btn-link ">Here's My Resume</button>
+            <button
+              onClick={() => {
+                window.location.href =
+                  "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf";
+              }}
+              className="btn-link "
+            >
+              Here's My Resume
+            </button>
             <p>Have a {getDay()}!</p>
           </div>
         </div>
       </div>
     </Scaffold>
-  )
-}
+  );
+};

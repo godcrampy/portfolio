@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import '../styles/footer.scss'
-import github from '../assets/github.svg'
-import instagram from '../assets/instagram.svg'
-import dev from '../assets/dev-dot-to.svg'
-import gmail from '../assets/gmail.svg'
-import linkedin from '../assets/linkedin.svg'
+import "../styles/footer.scss";
+import github from "../assets/github.svg";
+import instagram from "../assets/instagram.svg";
+import dev from "../assets/dev-dot-to.svg";
+import gmail from "../assets/gmail.svg";
+import linkedin from "../assets/linkedin.svg";
 
 class Footer extends React.Component {
   render() {
@@ -31,7 +31,7 @@ class Footer extends React.Component {
           Icons by <a href="https://icons8.com">icons8</a>
         </p>
       </footer>
-    )
+    );
   }
 }
 
