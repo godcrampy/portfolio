@@ -41,7 +41,7 @@ export default () => {
           <div className="col-7">
             <h3>Sahil Bondre</h3>
             <p>
-              I am a computer engineering undergraduate currently studying in NIT Surat, India. I am experienced in Fullstack Web and Mobile. I am passionate about writing clean and efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design.
+              I am a computer engineering undergraduate currently studying in NIT Surat, India. I am experienced in Fullstack Web and Mobile. I am passionate about writing clean and efficient code. I have a good knowledge of Data Structures, Algorithms and UI Design. Contributor for <a href="http://webpack.js.org/">webpack</a>
           </p>
             <p>
               By the way, I write articles related to programming too! Find me on:<br /> <a href="https://dev.to/godcrampy">
